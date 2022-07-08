@@ -1,13 +1,11 @@
 ﻿using System;
-using GlobalDatabaseConnector.Database;
-namespace GlobalDatabaseConnector
+
+namespace GlobalDatabaseConnector.Database
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
-            Example.Execute();
-            Console.ReadKey();
         }
     }
 }
